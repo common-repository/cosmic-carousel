@@ -1,0 +1,75 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.item-cosmic {
+    margin:0 5px;
+
+}
+
+.cosmic_slide_image {
+    background-size:cover !important;
+    background-position:center center;
+    width:100%;
+    display: flex;
+    align-items: flex-end;
+    padding:0 15px ;
+
+}
+
+.item-cosmic:focus {
+    outline:0;
+}
+
+.cosmic_slide_image h4{
+    color:white;
+}
+
+
+.cosmic--wrapper {
+    display: flex !important;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+.cosmic--wrapper .slick-arrow:focus {
+    outline:0;
+}
+
+.cosmic--wrapper .slick-prev  {
+    background-image: url('../images/chevron.svg');
+    position: absolute;
+    background-size: cover;
+    left: 10px;
+    z-index: 99999;
+    font-size: 0;
+    background-color: transparent;
+    border: 0;
+    height: 30px;
+    width: 30px;
+    transform: rotate(180deg);
+}
+
+.cosmic--wrapper .slick-next  {
+    background-image: url('../images/chevron.svg');
+    position: absolute;
+    background-size: cover;
+    right: 10px;
+    z-index: 99999;
+    font-size: 0;
+    background-color: transparent;
+    border: 0;
+    height: 30px;
+    width: 30px;
+}
+
+.cosmic--wrapper .slick-slider {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
